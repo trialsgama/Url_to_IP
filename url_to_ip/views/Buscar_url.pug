@@ -10,19 +10,21 @@ block content
         <tbody>
             <tr>
                 <td><form action="/" method="POST">
-                    <label for="url">URL a buscar</label>
                         <input type="text" name="urlabuscar" id="url" required>
-                        <select class="" name="protocolo">
+                        <select class="" name="protocolo" id="protocolo">
                         <option id="FTP" value="FTP">FTP</option>
                         <option id="SSH" value="SSH">SSH</option>
                         <option id="TELNET" value="TELNET">TELNET</option>
                         <option id="SMTP" value="SMTP">SMTP</option>
+                        <option id="HTTP" value="HTTP">HTTP</option>
                         <input type="submit" value="Submit" class="waves-effect waves-light btn light-blue darken-4">
-                    </form>
+                </form>
+                </td>
             </tr>
         </tbody>
+        <tbody class="resp"></tbody>
     </table>
-    div>
+    <div>
         <footer>
             <div class="foot">
                 <p>Leandro Estrella 2018</p>
