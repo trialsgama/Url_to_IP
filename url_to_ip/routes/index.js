@@ -36,7 +36,10 @@ router.post('/', function(req, res, next) {
     */
 
     var client = new net.Socket();
-    client.connect(protocolo, dominio, function() {
+    client.connect(protocolo, dominio, function(err) {
+        if (err) {
+            console.log(err);
+        }
         console.log("connected");
 
     });
