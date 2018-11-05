@@ -9,14 +9,15 @@ router.get('/', function(req, res, next) {
     res.render('Buscar_url', { title: 'Url to IP' });
 });
 
-router.post('/', function(req,res, next) {
+router.post('/', function(req, res, next) {
     var dominio = req.body.urlabuscar;
     console.log(dominio);
     var family = 4;
     var protocolo = req.body.protocolo;
     var datos = "";
     console.log(protocolo);
-   
+
+    /*
    dns.lookup(dominio, family, (err, address) => {
         if (err) {
             console.log(err);
@@ -32,16 +33,27 @@ router.post('/', function(req,res, next) {
         console.log(datos);
 
     });
-   
-  /*
-    var ip = dns.lookup(dominio, family, (err, address) => {
-        if (err) {
-            console.log(err);
-        }
-        return address;
-    });
     */
-    
+
+    var client = new net.Socket();
+    client.connect(protocolo, dominio, function() {
+        console.log("connected");
+
+    });
+    client.on('data', function(data) {
+
+            console.log('Received: ' + data);
+
+        })
+        /*
+          var ip = dns.lookup(dominio, family, (err, address) => {
+              if (err) {
+                  console.log(err);
+              }
+              return address;
+          });
+          */
+
     /*
     var client = new net.Socket();
     var conexion_servidor = client.connect(protocolo, ip, function() {
