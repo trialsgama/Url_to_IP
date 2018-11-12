@@ -2,7 +2,7 @@ var express = require('express');
 var body = require("body-parser");
 var router = express.Router();
 var net = require('net');
-const dns = require('dns');
+
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -11,11 +11,9 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
     var dominio = req.body.urlabuscar;
-    console.log(dominio);
-    var family = 4;
     var protocolo = req.body.protocolo;
-    var datos = "";
-    console.log(protocolo);
+    var banner = "";
+
 
     /*
    dns.lookup(dominio, family, (err, address) => {
@@ -45,9 +43,12 @@ router.post('/', function(req, res, next) {
     });
     client.on('data', function(data) {
 
-            console.log('Received: ' + data);
+        console.log('Received: ' + data);
+        banner = data;
+    })
+    client.destroy();
 
-        })
+    console.log
         /*
           var ip = dns.lookup(dominio, family, (err, address) => {
               if (err) {
