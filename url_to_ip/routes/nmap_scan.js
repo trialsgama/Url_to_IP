@@ -1,20 +1,20 @@
 var express = require('express');
 var body = require("body-parser");
 var router = express.Router();
-var nmap = require('node-nmap');
+const nmap = require('node-nmap');
  
 nmap.nmapLocation = "nmap"; //default
 
-router.route('/nmap');
+//router.route('/nmap');
 
 
 
 /* GET home page. */
-router.get('/nmap', function(req, res, next) {
+router.get('/', function(req, res, next) {
     res.render('nmap', { title: 'Scan' });
 });
 
-router.post('/nmap', function(req, res, next) {
+router.post('/', function(req, res, next) {
     var dominio = req.body.urlabuscar;
     var scan = req.body.Tiposcan;
     var resultado_scaneo = "";
