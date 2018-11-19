@@ -1,0 +1,31 @@
+block content
+    <table>
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Protocolo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><form action="/nmap" method="POST">
+                        <input type="text" name="urlabuscar" id="url" required>
+                        <select class="" name="Tiposcan" id="protocolo">
+                        <option name="QuickScan" value="QuickScan">QuickScan</option>
+                        <option name="NormalScan" value="NmapScan">Scan</option>
+                        <option name="OsAndPortScan" value="OsAndPortScan">Scan sistema operativo y puerto</option>
+                        <input type="submit" value="Submit" class="waves-effect waves-light btn light-blue darken-4">
+                </form>
+                </td>
+            </tr>
+        </tbody>
+        <tbody class="resp" name="respuesta"></tbody>
+    </table>
+    <div>
+        <footer>
+            <div class="foot">
+                <p>Leandro Estrella 2018</p>
+            </div>
+        </footer>
+    </div>
