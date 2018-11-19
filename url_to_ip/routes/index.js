@@ -15,6 +15,7 @@ router.post('/', function(req, res, next) {
     var banner = "";
 
 
+
     /*
    dns.lookup(dominio, family, (err, address) => {
         if (err) {
@@ -41,13 +42,17 @@ router.post('/', function(req, res, next) {
         console.log("connected");
 
     });
-    client.on('data', function(data) {
+    client.on('data', function(info) {
 
-        console.log('Received: ' + data);
-        banner = data;
+        console.log('Received: ' + info);
+        banner += info;
+        console.log(banner);
+        banner = banner.substring(5);
+        banner = banner.split(')');
+        res.send(banner[0]);
     })
-    client.destroy();
 
+    /*
     console.log
         /*
           var ip = dns.lookup(dominio, family, (err, address) => {
