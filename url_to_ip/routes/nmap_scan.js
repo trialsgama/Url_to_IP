@@ -43,7 +43,8 @@ router.post('/', function(req, res, next) {
                 console.log(error);
               });
 
-            resultado_scaneo = nmapscan.startScan();
+            nmapscan.startScan();
+            resultado_scaneo = nmapscan.scanResults;
             res.send(resultado_scaneo);
             break;
         case 'OsAndPortScan':
