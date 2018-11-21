@@ -1,352 +1,341 @@
-CuteFTP Mac 3.1 - Denial of Service (PoC)
-CuteFTP 9.3.0.3 - Denial of Service (PoC)
-SmartFTP Client 9.0.2615.0 - Denial of Service (PoC)
-Nutanix AOS & Prism < 5.5.5 (LTS) / < 5.8.1 (STS) - SFTP Authentication Bypass
-NICO-FTP 3.0.1.19 - Buffer Overflow (SEH) (ASLR Bypass)
-FTP Voyager 16.2.0 - Denial of Service (PoC)
-SoftX FTP Client 3.3 - Denial of Service (PoC)
-NICO-FTP 3.0.1.19 - Buffer Overflow (SEH)
-CuteFTP 5.0 - Buffer Overflow
-CuteFTP 8.3.1 - Denial of Service (PoC)
-Core FTP 2.0 - 'XRMD' Denial of Service (PoC)
-FTP2FTP 1.0 - Arbitrary File Download
-FTPShell Client 6.70 (Enterprise Edition) - Stack Buffer Overflow (Metasploit)
-Core FTP LE 2.2 - Buffer Overflow (PoC)
-Ftp Server 1.32 - Credential Disclosure
-ALFTP 5.31 - Local Buffer Overflow (SEH Bypass)
-FTPShell Server 6.80 - Denial of Service
-FTPShell Server 6.80 - Buffer Overflow (SEH)
-FTPShell Client 6.7 - Buffer Overflow
-MikroTik 6.41.4 - FTP daemon Denial of Service PoC
-OpenSSH < 6.6 SFTP - Command Execution
-SEGGER embOS/IP FTP Server 3.22 - Denial of Service
-LabF nfsAxe 3.7 TFTP Client - Local Buffer Overflow
-PyroBatchFTP < 3.19 - Buffer Overflow
-LabF nfsAxe 3.7 FTP Client - Stack Buffer Overflow (Metasploit)
-Ayukov NFTP FTP Client 2.0 - Remote Buffer Overflow (Metasploit)
-LabF nfsAxe FTP Client 3.7 - Remote Buffer Overflow (DEP Bypass)
-Ruby < 2.2.8 / < 2.3.5 / < 2.4.2 / < 2.5.0-preview1 - 'NET::Ftp' Command Injection
-PSFTPd Windows FTP Server 10.0.4 Build 729 - Log Injection / Use-After-Free
-Xlight FTP Server 3.8.8.5 - Buffer Overflow (PoC)
-Ipswitch WS_FTP Professional < 12.6.0.3 - Local Buffer Overflow (SEH)
-tnftp - 'savefile' Arbitrary Command Execution (Metasploit)
-Ayukov NFTP FTP Client < 2.0 - Remote Buffer Overflow
-PyroBatchFTP 3.17 - Buffer Overflow (SEH)
-FTP Made Easy PRO 1.2 - SQL Injection
-FTPGetter 5.89.0.85 - Remote Buffer Overflow (SEH)
-LabF nfsAxe 3.7 FTP Client - Remote Buffer Overflow (SEH)
-SpiceWorks 7.5 TFTP - Remote File Overwrite / Upload
-FTPShell Server 6.56 - 'ChangePassword' Buffer Overflow
-FTPShell Client 6.53 - 'Session name' Local Buffer Overflow
-Cerberus FTP Server 8.0.10.3 - 'MLST' Buffer Overflow (PoC)
-Cerberus FTP Server 8.0.10.1 - Denial of Service
-FTP Voyager Scheduler 16.2.0 - Cross-Site Request Forgery
-FTPShell Client 6.53 - Remote Buffer Overflow
-FTP Made Easy PRO 1.2 - Arbitrary File Download
-Internet Download Accelerator 6.10.1.1527 - FTP Buffer Overflow (SEH)
-FTPShell Server 6.36 - '.csv' Local Denial of Service
-Core FTP LE 2.2 - 'SSH/SFTP' Remote Buffer Overflow (PoC)
-FTPShell Client 5.24 - 'PWD' Remote Buffer Overflow
-WinaXe 7.7 FTP Client - Remote Buffer Overflow (Metasploit)
+CuteFTP Mac 3.1 
+CuteFTP 9.3.0.3 
+SmartFTP Client 9.0.2615.0 
+Nutanix AOS & Prism < 5.5.5 (LTS) / < 5.8.1 (STS) 
+NICO
+FTP Voyager 16.2.0 
+SoftX FTP Client 3.3 
+NICO
+CuteFTP 5.0 
+CuteFTP 8.3.1 
+Core FTP 2.0 
+FTP2FTP 1.0 
+FTPShell Client 6.70 (Enterprise Edition) 
+Core FTP LE 2.2 
+Ftp Server 1.32 
+ALFTP 5.31 
+FTPShell Server 6.80 
+FTPShell Server 6.80 
+FTPShell Client 6.7 
+MikroTik 6.41.4 
+OpenSSH < 6.6 SFTP 
+SEGGER embOS/IP FTP Server 3.22 
+LabF nfsAxe 3.7 TFTP Client 
+PyroBatchFTP < 3.19 
+LabF nfsAxe 3.7 FTP Client 
+Ayukov NFTP FTP Client 2.0 
+LabF nfsAxe FTP Client 3.7 
+Ruby < 2.2.8 / < 2.3.5 / < 2.4.2 / < 2.5.0
+PSFTPd Windows FTP Server 10.0.4 Build 729 
+Xlight FTP Server 3.8.8.5 
+Ipswitch WS_FTP Professional < 12.6.0.3 
+tnftp 
+Ayukov NFTP FTP Client < 2.0 
+PyroBatchFTP 3.17 
+FTP Made Easy PRO 1.2 
+FTPGetter 5.89.0.85 
+LabF nfsAxe 3.7 FTP Client 
+SpiceWorks 7.5 TFTP 
+FTPShell Server 6.56 
+FTPShell Client 6.53 
+Cerberus FTP Server 8.0.10.3 
+Cerberus FTP Server 8.0.10.1 
+FTP Voyager Scheduler 16.2.0 
+FTPShell Client 6.53 
+FTP Made Easy PRO 1.2 
+Internet Download Accelerator 6.10.1.1527 
+FTPShell Server 6.36 
+Core FTP LE 2.2 
+FTPShell Client 5.24 
+WinaXe 7.7 FTP Client 
 Title
-BolinTech DreamFTP Server 1.02 - 'RETR' Remote Buffer Overflow
-PCMan FTP Server 2.0.7 - 'PORT' Remote Buffer Overflow
-PCMan FTP Server 2.0.7 - 'SITE CHMOD' Remote Buffer Overflow
-PCMan FTP Server 2.0.7 - 'NLST' Remote Buffer Overflow
-Freefloat FTP Server 1.0 - 'SITE ZONE' Remote Buffer Overflow
-PCMan FTP Server 2.0.7 - 'ACCT' Remote Buffer Overflow
-WinaXe 7.7 'FTP client' - Remote Buffer Overflow
-Freefloat FTP Server 1.0 - 'DIR' Remote Buffer Overflow
-PCMan FTP Server 2.0.7 - 'UMASK' Remote Buffer Overflow
-Freefloat FTP Server 1.0 - 'RENAME' Remote Buffer Overflow
-KarjaSoft Sami FTP Server 2.0.2 - USER/PASS Remote Buffer Overflow (SEH)
-Freefloat FTP Server 1.0 - 'ABOR' Remote Buffer Overflow
-Freefloat FTP Server 1.0 - 'HOST' Remote Buffer Overflow
-Freefloat FTP Server 1.0 - 'RMD' Remote Buffer Overflow
-PCMan FTP Server 2.0.7 - 'DELETE' Remote Buffer Overflow
-Rumba FTP Client 4.x - Remote Stack Buffer Overflow (SEH)
-freeFTPd 1.0.8 - 'mkd' Denial of Service
-Baby FTP server 1.24 - Denial of Service (2)
-SmallFTPd 1.0.3 - 'mkd' Denial of Service
-JCraft/JSch Java Secure Channel 0.1.53 - Recursive sftp-get Directory Traversal
-ColoradoFTP 1.3 Prime Edition (Build 8) - Directory Traversal
-zFTP Client 20061220 - 'Connection Name' Local Buffer Overflow
-TFTP Server 1.4 - 'WRQ' Remote Buffer Overflow (Egghunter)
-Core FTP LE 2.2 - Path Field Local Buffer Overflow (PoC)
-PCMan FTP Server 2.0.7 - 'ls' Remote Buffer Overflow (Metasploit)
-FileZilla FTP Client 3.17.0.0 - Unquoted Path Privilege Escalation
-Core FTP Server 32-bit Build 587 - Heap Overflow
-Ipswitch WS_FTP LE 12.3 - Search field Overwrite (SEH) (PoC)
-i.FTP 2.21 - Host Address / URL Field (SEH)
-PCMan FTP Server 2.0.7 - 'RENAME' Remote Buffer Overflow (Metasploit)
-PCMan FTP Server - 'PUT' Buffer Overflow (Metasploit)
-TallSoft SNMP/TFTP Server 1.0.0 - Denial of Service
-Quick Tftp Server Pro 2.3 - Read Mode Denial of Service
-Core FTP Server 1.2 - Local Buffer Overflow
-XM Easy Personal FTP Server 5.8.0 - 'HELP' Remote Denial of Service
-FTPShell Client 5.24 - 'Create NewFolder' Local Buffer Overflow
-CesarFTP 0.99g - XCWD Denial of Service
-Konica Minolta FTP Utility 1.00 - CWD Command Overflow (SEH)
-FTPShell Client 5.24 - 'Add to Favorites' Buffer Overflow
-FTPShell Client 5.24 - Local Buffer Overflow
-Notepad++ NPPFtp Plugin 0.26.3 - Buffer Overflow
-Netwin SurgeFTP Sever 23d6 - Persistent Cross-Site Scripting
-BisonWare BisonFTP Server 3.5 - Directory Traversal
-PCMan FTP Server 2.0.7 - Directory Traversal
-FreshFTP 5.52 - '.qfl' Crash (PoC)
-Konica Minolta FTP Utility 1.0 - Directory Traversal
-Konica Minolta FTP Utility 1.00 - (Authenticated) CWD Command Overflow (SEH) (Metasploit)
-Konica Minolta FTP Utility 1.0 - Remote Command Execution
-Monsta FTP 1.6.2 - Multiple Vulnerabilities
-GPON Home Router FTP G-93RG1 - Cross-Site Request Forgery / Command Execution
-
-
-SynaMan 4.0 build 1488 - SMTP Credential Disclosure
-Qmail SMTP - Bash Environment Variable Injection (Metasploit)
-SysGauge 1.5.18 - SMTP Validation Buffer Overflow (Metasploit)
-Python smtplib 2.7.11 / 3.4.4 / 3.5.1 - Man In The Middle StartTLS Stripping
-Blat 2.7.6 SMTP / NNTP Mailer - Local Buffer Overflow
-Mock SMTP Server 1.0 - Remote Crash (PoC)
-Exim ESMTP 4.80 - glibc gethostbyname Denial of Service
-Postfix SMTP 4.2.x < 4.2.48 - 'Shellshock' Remote Command Injection
-iScripts AutoHoster - 'main_smtp.php' Traversal
-DeepOfix SMTP Server 3.3 - Authentication Bypass
-MIMEsweeper For SMTP - Multiple Cross-Site Scripting Vulnerabilities
-NJStar Communicator MiniSmtp - Buffer Overflow (ASLR Bypass)
-NJStar Communicator 3.00 - MiniSMTP Server Remote (Metasploit)
-Lotus Domino SMTP Router & Email Server and Client - Denial of Service
-LeadTools Imaging LEADSmtp - ActiveX Control 'SaveMessage()' Insecure Method
-Sitemagic CMS - 'SMTpl' Directory Traversal
-Majordomo2 - 'SMTP/HTTP' Directory Traversal
-Inetserv 3.23 - SMTP Denial of Service
-Microsoft Windows - ANI LoadAniIcon() Chunk Size Stack Buffer Overflow (SMTP) (MS07-017)...
-AA SMTP Server 1.1 - Crash (PoC)
-SquirrelMail PGP Plugin - Command Execution (SMTP) (Metasploit)
-sSMTP 2.62 - 'standardize()' Buffer Overflow
-CommuniCrypt Mail 1.16 - SMTP ActiveX Stack Buffer Overflow (Metasploit)
-Mercury/32 Mail SMTPD - AUTH CRAM-MD5 Buffer Overflow (Metasploit)
-CommuniCrypt Mail 1.16 - 'ANSMTP.dll/AOSMTP.dll' ActiveX
-TABS MailCarrier 2.51 - SMTP EHLO Overflow (Metasploit)
-EasyMail Objects 'EMSMTP.DLL 6.0.1' - ActiveX Control Remote Buffer Overflow
-i.Scribe SMTP Client 2.00b - 'wscanf' Remote Format String (PoC)
-MailEnable 3.13 SMTP Service - 'VRFY/EXPN' Denial of Service
-Citadel SMTP 7.10 - Remote Overflow
-QK SMTP Server - Malformed Commands Multiple Remote Denial of Service Vulnerabilities
-Postcast Server Pro 3.0.61 / Quiksoft EasyMail - 'emsmtp.dll 6.0.1' Remote Buffer Overflow
-Mercury/32 Mail Server 3.32 < 4.51 - SMTP EIP Overwrite
-Mercury/32 Mail SMTPD 4.51 - SMTPD CRAM-MD5 Remote Overflow
-Mercury/32 Mail SMTPD - Remote Stack Overrun (PoC)
-Eudora 7.1 - SMTP ResponseRemote Remote Buffer Overflow
-QK SMTP 3.01 - 'RCPT TO' Remote Buffer Overflow (2)
-MailEnable 2.x - SMTP NTLM Multiple Authentication Vulnerabilities
-QK SMTP 3.01 - 'RCPT TO' Remote Buffer Overflow (1)
-QK SMTP 3.01 - 'RCPT TO' Remote Denial of Service
-Hastymail 1.x - IMAP SMTP Command Injection
-MailEnable 1.x - SMTP 'HELO' Remote Denial of Service
-Apache James Server 2.2 - SMTP Denial of Service
-BL4 SMTP Server < 0.1.5 - Remote Buffer Overflow (PoC)
-SoftiaCom wMailServer 1.0 - SMTP Remote Buffer Overflow (Metasploit)
-Free SMTP Server 2.2 - Spam Filter
-nbSMTP 0.99 - 'util.c' Client-Side Command Execution
-Inframail Advantage Server Edition 6.0 < 6.37 - 'SMTP' Buffer Overflow
-GoodTech SMTP Server 5.14 - Denial of Service
-dSMTP Mail Server 3.1b (Linux) - Format String
-MailEnable Enterprise 1.x - SMTP Remote Denial of Service
-SPECTral Personal SMTP Server 0.4.2 - Denial of Service
-Qwik SMTP 0.3 - Format String
-TABS MailCarrier 2.51 - SMTP 'EHLO' / 'HELO' Remote Buffer Overflow
-BaSoMail Server 1.24 - POP3/SMTP Remote Denial of Service
-YahooPOPs 1.6 - SMTP Remote Buffer Overflow
-YahooPOPs 1.6 - SMTP Port Buffer Overflow
-Alt-N MDaemon 6.5.1 - IMAP/SMTP Remote Buffer Overflow
-Alt-N MDaemon 6.5.1 SMTP Server - Multiple Command Remote Overflows
-MDaemon SMTP Server 5.0.5 - Null Password Authentication
-Mailtraq 2.1.0.1302 - Remote Format String SMTP Resource Consumption
-BaSoMail 1.24 - SMTP Server Command Buffer Overflow
-FloosieTek FTGate PRO 1.22 - SMTP RCPT TO Buffer Overflow
-FloosieTek FTGate PRO 1.22 - SMTP MAIL FROM Buffer Overflow
-EType EServ 2.9x - SMTP Remote Denial of Service
-CodeBlue 5.1 - SMTP Response Buffer Overflow
-Microsoft IIS 4.0/5.0 - SMTP Service Encapsulated SMTP Address (MS99-027)
-Softek MailMarshal 4 / Trend Micro ScanMail 1.0 - SMTP Attachment Protection Bypass
-MAILsweeper SMTP 4.2.1 + F-Secure Anti-Virus 5.0.2/5.2.1 - File Scanner Malicious Archive...
-Cobalt Raq3 PopRelayD - Arbitrary SMTP Relay
-Network Associates Webshield SMTP 4.5 - Invalid Outgoing Recipient Field Denial of Service
-Cisco PIX Firewall 4.x/5.x - SMTP Content Filtering Evasion
-Jack De Winter WinSMTP 1.6 f/2.0 - Buffer Overflow
-Computalynx CMail 2.3 SP2/2.4 - SMTP Buffer Overflow
-NetcPlus SmartServer 3.5.1 - SMTP Buffer Overflow
-Lotus Domino 4.6.1/4.6.4 Notes - SMTPA MTA Mail Relay
-Alt-N MDaemon Server 2.71 SP1 - SMTP HELO Argument Buffer Overflow
-SmartMax MailMax 1.0 - SMTP Buffer Overflow
-Ipswitch Imail Server 5.0 - SMTP HELO Argument Buffer Overflow
-Microsoft Exchange Server 4.0/5.0 - SMTP HELO Argument Buffer Overflow
-
-SSH
-
-Navicat 12.0.29 - 'SSH' Denial of Service (PoC)
-Linux/x86 - execve(/bin/cat /etc/ssh/sshd_config) Shellcode 44 Bytes
-libSSH - Authentication Bypass
-WirelessHART Fieldgate SWG70 3.0 - Directory Traversal
-Eaton Xpert Meter 13.4.0.10 - SSH Private Key Disclosure
-OpenSSH 2.3 < 7.7 - Username Enumeration
-OpenSSH 2.3 < 7.7 - Username Enumeration (PoC)
-OpenSSH < 6.6 SFTP - Command Execution
+BolinTech DreamFTP Server 1.02 
+PCMan FTP Server 2.0.7 
+PCMan FTP Server 2.0.7 
+PCMan FTP Server 2.0.7 
+Freefloat FTP Server 1.0 
+PCMan FTP Server 2.0.7 
+WinaXe 7.7 'FTP client' 
+Freefloat FTP Server 1.0 
+PCMan FTP Server 2.0.7 
+Freefloat FTP Server 1.0 
+KarjaSoft Sami FTP Server 2.0.2 
+Freefloat FTP Server 1.0 
+Freefloat FTP Server 1.0 
+Freefloat FTP Server 1.0 
+PCMan FTP Server 2.0.7 
+Rumba FTP Client 4.x 
+freeFTPd 1.0.8 
+Baby FTP server 1.24 
+SmallFTPd 1.0.3 
+JCraft/JSch Java Secure Channel 0.1.53 
+ColoradoFTP 1.3 Prime Edition (Build 8) 
+zFTP Client 20061220 
+TFTP Server 1.4 
+Core FTP LE 2.2 
+PCMan FTP Server 2.0.7 
+FileZilla FTP Client 3.17.0.0 
+Core FTP Server 32
+Ipswitch WS_FTP LE 12.3 
+i.FTP 2.21 
+PCMan FTP Server 2.0.7 
+PCMan FTP Server 
+TallSoft SNMP/TFTP Server 1.0.0 
+Quick Tftp Server Pro 2.3 
+Core FTP Server 1.2 
+XM Easy Personal FTP Server 5.8.0 
+FTPShell Client 5.24 
+CesarFTP 0.99g 
+Konica Minolta FTP Utility 1.00 
+FTPShell Client 5.24 
+FTPShell Client 5.24 
+Notepad++ NPPFtp Plugin 0.26.3 
+Netwin SurgeFTP Sever 23d6 
+BisonWare BisonFTP Server 3.5 
+PCMan FTP Server 2.0.7 
+FreshFTP 5.52 
+Konica Minolta FTP Utility 1.0 
+Konica Minolta FTP Utility 1.00 
+Konica Minolta FTP Utility 1.0 
+Monsta FTP 1.6.2 
+GPON Home Router FTP G
+SynaMan 4.0 build 1488 
+Qmail SMTP 
+SysGauge 1.5.18 
+Python smtplib 2.7.11 / 3.4.4 / 3.5.1 
+Blat 2.7.6 SMTP / NNTP Mailer 
+Mock SMTP Server 1.0 
+Exim ESMTP 4.80 
+Postfix SMTP 4.2.x < 4.2.48 
+iScripts AutoHoster 
+DeepOfix SMTP Server 3.3 
+MIMEsweeper For SMTP 
+NJStar Communicator MiniSmtp 
+NJStar Communicator 3.00 
+Lotus Domino SMTP Router & Email Server and Client 
+LeadTools Imaging LEADSmtp 
+Sitemagic CMS 
+Majordomo2 
+Inetserv 3.23 
+Microsoft Windows 
+AA SMTP Server 1.1 
+SquirrelMail PGP Plugin 
+sSMTP 2.62 
+CommuniCrypt Mail 1.16 
+Mercury/32 Mail SMTPD 
+CommuniCrypt Mail 1.16 
+TABS MailCarrier 2.51 
+EasyMail Objects 'EMSMTP.DLL 6.0.1' 
+i.Scribe SMTP Client 2.00b 
+MailEnable 3.13 SMTP Service 
+Citadel SMTP 7.10 
+QK SMTP Server 
+Postcast Server Pro 3.0.61 / Quiksoft EasyMail 
+Mercury/32 Mail Server 3.32 < 4.51 
+Mercury/32 Mail SMTPD 4.51 
+Mercury/32 Mail SMTPD 
+Eudora 7.1 
+QK SMTP 3.01 
+MailEnable 2.x 
+QK SMTP 3.01 
+QK SMTP 3.01 
+Hastymail 1.x 
+MailEnable 1.x 
+Apache James Server 2.2 
+BL4 SMTP Server < 0.1.5 
+SoftiaCom wMailServer 1.0 
+Free SMTP Server 2.2 
+nbSMTP 0.99 
+Inframail Advantage Server Edition 6.0 < 6.37 
+GoodTech SMTP Server 5.14 
+dSMTP Mail Server 3.1b (Linux) 
+MailEnable Enterprise 1.x 
+SPECTral Personal SMTP Server 0.4.2 
+Qwik SMTP 0.3 
+TABS MailCarrier 2.51 
+BaSoMail Server 1.24 
+YahooPOPs 1.6 
+YahooPOPs 1.6 
+Alt
+Alt
+MDaemon SMTP Server 5.0.5 
+Mailtraq 2.1.0.1302 
+BaSoMail 1.24 
+FloosieTek FTGate PRO 1.22 
+FloosieTek FTGate PRO 1.22 
+EType EServ 2.9x 
+CodeBlue 5.1 
+Microsoft IIS 4.0/5.0 
+Softek MailMarshal 4 / Trend Micro ScanMail 1.0 
+MAILsweeper SMTP 4.2.1 + F
+Cobalt Raq3 PopRelayD 
+Network Associates Webshield SMTP 4.5 
+Cisco PIX Firewall 4.x/5.x 
+Jack De Winter WinSMTP 1.6 f/2.0 
+Computalynx CMail 2.3 SP2/2.4 
+NetcPlus SmartServer 3.5.1 
+Lotus Domino 4.6.1/4.6.4 Notes 
+Alt
+SmartMax MailMax 1.0 
+Ipswitch Imail Server 5.0 
+Microsoft Exchange Server 4.0/5.0 
+Navicat 12.0.29 
+Linux/x86 
+libSSH 
+WirelessHART Fieldgate SWG70 3.0 
+Eaton Xpert Meter 13.4.0.10 
+OpenSSH 2.3 < 7.7 
+OpenSSH 2.3 < 7.7 
+OpenSSH < 6.6 SFTP 
 Analyze & Attack SSH Protocol
-Trustwave SWG 11.8.0.27 - SSH Unauthorized Access
-FLIR Thermal Camera F/FC/PT/D - SSH Backdoor Access
-NethServer 7.3.1611 - Cross-Site Request Forgery (Create User / Enable SSH Access)
-Pelco Sarix/Spectra Cameras - Cross-Site Request Forgery (Enable SSH Root Access)
-PuTTY < 0.68 - 'ssh_agent_channel_data' Integer Overflow Heap Corruption
-Tecnovision DLX Spot - SSH Backdoor Access
-Mercurial - Custom hg-ssh Wrapper Remote Code Exec (Metasploit)
-OpenSSH 6.8 < 6.9 - 'PTY' Local Privilege Escalation
-OpenSSH < 7.4 - agent Protocol Arbitrary Library Loading
-OpenSSH < 7.4 - 'UsePrivilegeSeparation Disabled' Forwarded Unix Domain Sockets Privilege...
-OpenSSH 7.2 - Denial of Service
-Core FTP LE 2.2 - 'SSH/SFTP' Remote Buffer Overflow (PoC)
-Axessh 4.2 - Denial of Service
-OpenSSH 7.2p2 - Username Enumeration
-OpenSSHd 7.2p2 - Username Enumeration
-ExaGrid - Known SSH Key and Default Password (Metasploit)
-OpenSSH 7.2p1 - (Authenticated) xauth Command Injection
-DropBearSSHD 2015.71 - Command Injection
-Roaming Through the OpenSSH Client: CVE-2016-0777 and CVE-2016-0778
-Fortinet FortiGate 4.x < 5.0.7 - SSH Backdoor Access
-Huawei HG630a / HG630a-50 - Default SSH Admin Password on ADSL Modems
-Git 1.9.5 - 'ssh-agent.exe' Buffer Overflow (PoC)
-Sysax Multi Server 6.40 - SSH Component Denial of Service
-freeSSHd 1.3.1 - Denial of Service
-Private Shell SSH Client 3.3 - Crash (PoC)
-ZOC SSH Client - Buffer Overflow (SEH) (PoC)
-Ceragon FibeAir IP-10 - SSH Private Key Exposure (Metasploit)
-OpenSSH < 6.6 SFTP (x64) - Command Execution
-Quantum DXi V1000 2.2.1 - Static SSH Key
-Loadbalancer.org Enterprise VA 7.5.2 - Static SSH Key
-MikroTik RouterOS - sshd (ROSSSH) Remote Heap Corruption
-Sysax Multi Server 6.10 - SSH Denial of Service
-freeSSHd 1.2.6 - Authentication Bypass (Metasploit)
-Linux/x86 - Remote Port Forwarding (ssh -R 9999:localhost:22 192.168.0.226) Shellcode (87...
-(SSH.com Communications) SSH Tectia - USERAUTH Change Request Password Reset (Metasploit)
-(SSH.com Communications) SSH Tectia (SSH < 2.0-6.1.9.95 / Tectia 6.1.9.95) - Remote...
-freeSSHd 2.1.3 - Remote Authentication Bypass
-Symantec Messaging Gateway 9.5/9.5.1 - SSH Default Password Security Bypass (Metasploit)
-F5 BIG-IP - SSH Private Key Exposure (Metasploit)
-Sysax 5.53 - SSH 'Username' Remote Buffer Overflow (Metasploit)
-Sysax 5.53 - SSH 'Username' Remote Buffer Overflow Remote Code Execution (Egghunter)
-freeSSHd - Denial of Service (PoC)
-Mambo Component Ahsshop - SQL Injection
-FreeBSD OpenSSH 3.5p1 - Remote Command Execution
-Novell Netware 6.5 - OpenSSH Remote Stack Overflow
+Trustwave SWG 11.8.0.27 
+FLIR Thermal Camera F/FC/PT/D 
+NethServer 7.3.1611 
+Pelco Sarix/Spectra Cameras 
+PuTTY < 0.68 
+Tecnovision DLX Spot 
+Mercurial 
+OpenSSH 6.8 < 6.9 
+OpenSSH < 7.4 
+OpenSSH < 7.4 
+OpenSSH 7.2 
+Core FTP LE 2.2 
+Axessh 4.2 
+OpenSSH 7.2p2 
+OpenSSHd 7.2p2 
+ExaGrid 
+OpenSSH 7.2p1 
+DropBearSSHD 2015.71 
+Roaming Through the OpenSSH Client: CVE
+Fortinet FortiGate 4.x < 5.0.7 
+Huawei HG630a / HG630a
+Git 1.9.5 
+Sysax Multi Server 6.40 
+freeSSHd 1.3.1 
+Private Shell SSH Client 3.3 
+ZOC SSH Client 
+Ceragon FibeAir IP
+OpenSSH < 6.6 SFTP (x64) 
+Quantum DXi V1000 2.2.1 
+Loadbalancer.org Enterprise VA 7.5.2 
+MikroTik RouterOS 
+Sysax Multi Server 6.10 
+freeSSHd 1.2.6 
+Linux/x86 
+(SSH.com Communications) SSH Tectia 
+(SSH.com Communications) SSH Tectia (SSH < 2.0
+freeSSHd 2.1.3 
+Symantec Messaging Gateway 9.5/9.5.1 
+F5 BIG
+Sysax 5.53 
+Sysax 5.53 
+freeSSHd 
+Mambo Component Ahsshop 
+FreeBSD OpenSSH 3.5p1 
+Novell Netware 6.5 
 [Italian] SSH/SSL MITM
-freeSSHd 1.0.9 - Key Exchange Algorithm String Buffer Overflow (Metasploit)
-ProSSHD 1.2 - (Authenticated) Remote (ASLR + DEP Bypass)
-SecureCRT 4.0 Beta 2 SSH1 - Remote Buffer Overflow (Metasploit)
-freeSSHd 1.2.4 - Denial of Service
-ProSSHD 1.2 20090726 - Remote Buffer Overflow
-freeSSHd 1.2.1 - 'rename' Remote Buffer Overflow (SEH)
-Linux/x86 - Append RSA Key to /root/.ssh/authorized_keys2 Shellcode (295 bytes)
-freeSSHd 1.2.1 - (Authenticated) SFTP 'realpath' Remote Buffer Overflow (PoC)
-GoodTech SSH - 'SSH_FXP_OPEN' Remote Buffer Overflow
-freeSSHd 1.2.1 - (Authenticated) SFTP 'rename' Remote Buffer Overflow (PoC)
-Debian OpenSSH - (Authenticated) Remote SELinux Privilege Escalation
-freeSSHd 1.2.1 - (Authenticated) Remote Overflow (SEH)
-OpenSSL 0.9.8c-1 < 0.9.8g-9 (Debian and Derivatives) - Predictable PRNG Brute Force SSH...
-freeSSHd 1.2.1 - (Authenticated) Remote Stack Overflow (PoC)
-OpenSSL 0.9.8c-1 < 0.9.8g-9 (Debian and Derivatives) - Predictable PRNG Brute Force SSH...
-OpenSSL 0.9.8c-1 < 0.9.8g-9 (Debian and Derivatives) - Predictable PRNG Brute Force SSH...
-Mambo Component Ahsshop 1.51 - 'vara' SQL Injection
-freeSSHd 1.2 - 'SSH2_MSG_NEWKEYS' Remote Denial of Service
-Ipswitch WS_FTP Server with SSH 6.1.0.0 - Remote Buffer Overflow (PoC)
-Pragma Systems FortressSSH 5.0 - 'msvcrt.dll' Exception Handling Remote Denial of Service
-Portable OpenSSH 3.6.1p-PAM/4.1-SuSE - Timing Attack
-fipsShop - Multiple SQL Injections
-OpenSSH 4.3 p1 - Duplicated Block Remote Denial of Service
-freeSSHd 1.0.9 - Key Exchange Algorithm Buffer Overflow
-Dropbear / OpenSSH Server - 'MAX_UNAUTH_CLIENTS' Denial of Service
-Microsoft Windows XP - 'TSShutdn.exe' Remote Denial of Service
-phpBB 2.0.10 - 'ssh.D.Worm' Bot Install Altavista
-RSSH 2.x - Arbitrary Command Execution
-Dropbear SSH 0.34 - Remote Code Execution
-OpenSSH/PAM 3.6.1p1 - 'gossh.sh' Remote Users Ident
-OpenSSH/PAM 3.6.1p1 - Remote Users Discovery Tool
-SCPOnly 2.3/2.4 - SSH Environment Shell Escaping
-SecureCRT 2.4/3.x/4.0 - SSH1 Identifier String Buffer Overflow (2)
-SecureCRT 2.4/3.x/4.0 - SSH1 Identifier String Buffer Overflow (1)
-OpenSSH 3.x - Challenge-Response Buffer Overflow (2)
-OpenSSH 3.x - Challenge-Response Buffer Overflow (1)
-SSH (x2) - Remote Command Execution
-OpenSSH 2.x/3.x - Kerberos 4 TGT/AFS Token Buffer Overflow
-SSH2 3.0 - Restricted Shell Escape (Command Execution)
-OpenSSH 2.x/3.0.1/3.0.2 - Channel Code Off-by-One
-SSH2 3.0 - Short Password Login
-SSH 1.2.x - CRC-32 Compensation Attack Detector
-SSH 1.2.30 - Daemon Logging Failure
-glibc-2.2 / openssh-2.3.0p1 / glibc 2.1.9x - File Read
-SSH 1.2.x - Secure-RPC Weak Encrypted Authentication
-OpenSSH 1.2 - '.scp' File Create/Overwrite
-SSH Communications Security SSH 1.2.27 - Authentication Socket File Creation
-SSH - User Code Execution (Metasploit)
-
+freeSSHd 1.0.9 
+ProSSHD 1.2 
+SecureCRT 4.0 Beta 2 SSH1 
+freeSSHd 1.2.4 
+ProSSHD 1.2 20090726 
+freeSSHd 1.2.1 
+Linux/x86 
+freeSSHd 1.2.1 
+GoodTech SSH 
+freeSSHd 1.2.1 
+Debian OpenSSH 
+freeSSHd 1.2.1 
+OpenSSL 0.9.8c
+freeSSHd 1.2.1 
+OpenSSL 0.9.8c
+OpenSSL 0.9.8c
+Mambo Component Ahsshop 1.51 
+freeSSHd 1.2 
+Ipswitch WS_FTP Server with SSH 6.1.0.0 
+Pragma Systems FortressSSH 5.0 
+Portable OpenSSH 3.6.1p
+fipsShop 
+OpenSSH 4.3 p1 
+freeSSHd 1.0.9 
+Dropbear / OpenSSH Server 
+Microsoft Windows XP 
+phpBB 2.0.10 
+RSSH 2.x 
+Dropbear SSH 0.34 
+OpenSSH/PAM 3.6.1p1 
+OpenSSH/PAM 3.6.1p1 
+SCPOnly 2.3/2.4 
+SecureCRT 2.4/3.x/4.0 
+SecureCRT 2.4/3.x/4.0 
+OpenSSH 3.x 
+OpenSSH 3.x 
+SSH (x2) 
+OpenSSH 2.x/3.x 
+SSH2 3.0 
+OpenSSH 2.x/3.0.1/3.0.2 
+SSH2 3.0 
+SSH 1.2.x 
+SSH 1.2.30 
+glibc
+SSH 1.2.x 
+OpenSSH 1.2 
+SSH Communications Security SSH 1.2.27 
+NUUO NVRMini2 3.8 
+NETGEAR 
+Herospeed 
+Google Android 
+Sagem F@st 3304
+Polycom HDX 
+BSD 
+FreeBSD 
+Linux BSD
+TelnetD encrypt_keyid 
+Sagem Router Fast 3304/3464/3504 
+ProFTPd 1.3.2 rc3 < 1.3.3b (Linux) 
+ProFTPd 1.3.2 rc3 < 1.3.3b (FreeBSD) 
+Sun Solaris Telnet 
+Solaris TelnetD 
+GoodTech Telnet Server 5.0.6 
 Telnet
-
-NUUO NVRMini2 3.8 - 'cgi_system' Buffer Overflow (Enable Telnet)
-NETGEAR - 'TelnetEnable' Magic Packet (Metasploit)
-Herospeed - 'TelnetSwitch' Remote Stack Overflow / Overwrite Password / Enable TelnetD
-Google Android - Bind (1035/TCP) Telnetd Shell + Environment/Parameters Shellcode (248...
-Sagem F@st 3304-V2 - Telnet Crash (PoC)
-D-Link Devices - UPnP SOAP TelnetD Command Execution (Metasploit)
-Polycom HDX - Telnet Authentication Bypass (Metasploit)
-BSD - 'TelnetD' Remote Command Execution (2)
-FreeBSD - Telnet Service Encryption Key ID Buffer Overflow (Metasploit)
-Linux BSD-derived Telnet Service Encryption Key ID - Remote Buffer Overflow (Metasploit)
-TelnetD encrypt_keyid - Function Pointer Overwrite
-Sagem Router Fast 3304/3464/3504 - Telnet Authentication Bypass
-ProFTPd 1.3.2 rc3 < 1.3.3b (Linux) - Telnet IAC Buffer Overflow (Metasploit)
-ProFTPd 1.3.2 rc3 < 1.3.3b (FreeBSD) - Telnet IAC Buffer Overflow (Metasploit)
-Sun Solaris Telnet - Remote Authentication Bypass (Metasploit)
-Solaris TelnetD - 'TTYPROMPT' Remote Buffer Overflow (2) (Metasploit)
-GoodTech Telnet Server 5.0.6 - Remote Buffer Overflow (Metasploit)
-Telnet-Ftp Service Server 1.x - (Authenticated) Multiple Vulnerabilities
-Windows/x86 - Add Administrator User (GAZZA/123456) + Start Telnet Service Shellcode (111...
-FreeBSD 7.0-RELEASE - Telnet Daemon Privilege Escalation
-Pragma TelnetServer 7.0.4.589 - NULL-Pointer Dereference Denial of Service
-CCProxy 6.2 - Telnet Proxy Ping Overflow (Metasploit)
-Solaris 10/11 Telnet - Remote Authentication Bypass (Metasploit)
-SunOS 5.10/5.11 in.TelnetD - Remote Authentication Bypass
-Verso NetPerformer Frame Relay Access Device - Telnet Buffer Overflow
-Arescom NetDSL-1000 - 'TelnetD' Remote Denial of Service
-GoodTech Telnet Server < 5.0.7 - Remote Buffer Overflow (2)
-Multiple Vendor Telnet Client - Env_opt_add Heap Buffer Overflow
-GoodTech Telnet Server < 5.0.7 - Buffer Overflow Crash
-Linux/x86 - Reverse (200.182.207.235/TCP) Telnet Shel Shellcode (134 bytes)
-Kroum Grigorov KpyM Telnet Server 1.0 - Remote Denial of Service
-GoodTech Telnet Server 4.0 - Remote Denial of Service
-Jordan Windows Telnet Server 1.0/1.2 - 'Username' Stack Buffer Overrun (3)
-Jordan Windows Telnet Server 1.0/1.2 - 'Username' Stack Buffer Overrun (2)
-Jordan Windows Telnet Server 1.0/1.2 - 'Username' Stack Buffer Overrun (1)
-Celestial Software AbsoluteTelnet 2.0/2.11 - Title Bar Buffer Overflow
-Solaris 2.6/7/8 - 'TTYPROMPT in.telnet' Remote Authentication Bypass
-Apple Mac OSX 10.2 - Terminal.APP Telnet Link Command Execution
-602Pro LAN SUITE 2002 - Telnet Proxy localhost Denial of Service
-Solaris TelnetD - 'TTYPROMPT' Remote Buffer Overflow (1) (Metasploit)
-Solaris 2.x/7.0/8 / IRIX 6.5.x / OpenBSD 2.x / NetBSD 1.x / Debian 3 / HP-UX 10 -...
-3Com SuperStack II PS Hub 40 - TelnetD Weak Password Protection
-BSD - 'TelnetD' Remote Command Execution (1)
-Microsoft Windows Server 2000 - Telnet 'Username' Denial of Service
-Pragma Systems InterAccess TelnetD Server 4.0 - Denial of Service
-Beck IPC GmbH IPC@CHIP - TelnetD Login Account Brute Force
-Microsoft Internet Explorer 5.0.1/5.5/6.0 - Telnet Client File Overwrite
-APC WEB/SNMP Management Card (9606) Firmware 3.0 - Telnet Administration Denial of Service
-Hilgraeve HyperTerminal 6.0 - Telnet Buffer Overflow
-PragmaSys TelnetServer 2000 - rexec Buffer Overflow
-Microsoft Windows Server 2000 - 'telnet.exe' NTLM Authentication
-IRIX 5.2/5.3/6.x - TelnetD Environment Variable Format String
-Microsoft Windows Server 2000 - Telnet Server Denial of Service
-Pragma Systems InterAccess TelnetD Server 4.0 - Terminal Configuration
-Pragma Systems InterAccess TelnetD Server 4.0 Build 4 - Buffer Overflow
-GoodTech Telnet Server NT 2.2.1 - Denial of Service
-Byte Fusion BFTelnet 1.1 - Long Username Denial of Service
-Microsoft Windows 95/98 Internet Explorer 5/Telnet - Local Heap Overflow
+Windows/x86 
+FreeBSD 7.0
+Pragma TelnetServer 7.0.4.589 
+CCProxy 6.2 
+Solaris 10/11 Telnet 
+SunOS 5.10/5.11 in.TelnetD 
+Verso NetPerformer Frame Relay Access Device 
+Arescom NetDSL
+GoodTech Telnet Server < 5.0.7 
+Multiple Vendor Telnet Client 
+GoodTech Telnet Server < 5.0.7 
+Linux/x86 
+Kroum Grigorov KpyM Telnet Server 1.0 
+GoodTech Telnet Server 4.0 
+Jordan Windows Telnet Server 1.0/1.2 
+Jordan Windows Telnet Server 1.0/1.2 
+Jordan Windows Telnet Server 1.0/1.2 
+Celestial Software AbsoluteTelnet 2.0/2.11 
+Solaris 2.6/7/8 
+Apple Mac OSX 10.2 
+602Pro LAN SUITE 2002 
+Solaris TelnetD 
+Solaris 2.x/7.0/8 / IRIX 6.5.x / OpenBSD 2.x / NetBSD 1.x / Debian 3 / HP
+3Com SuperStack II PS Hub 40 
+BSD 
+Microsoft Windows Server 2000 
+Pragma Systems InterAccess TelnetD Server 4.0 
+Beck IPC GmbH IPC@CHIP 
+Microsoft Internet Explorer 5.0.1/5.5/6.0 
+APC WEB/SNMP Management Card (9606) Firmware 3.0 
+Hilgraeve HyperTerminal 6.0 
+PragmaSys TelnetServer 2000 
+Microsoft Windows Server 2000 
+IRIX 5.2/5.3/6.x 
+Microsoft Windows Server 2000 
+Pragma Systems InterAccess TelnetD Server 4.0 
+Pragma Systems InterAccess TelnetD Server 4.0 Build 4 
+GoodTech Telnet Server NT 2.2.1 
+Byte Fusion BFTelnet 1.1 
+Microsoft Windows 95/98 Internet Explorer 5/Telnet 
 Microsoft Windows NT 3.5.1 SP2/3.5.1 SP3/3.5.1 SP4/3.5.1 SP5/4.0/4.0 SP1/4.0 SP2/4.0...
-
