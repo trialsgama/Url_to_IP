@@ -3,6 +3,7 @@ var body = require("body-parser");
 var router = express.Router();
 var net = require('net');
 
+var lista = require('../lista');
 
 
 /* GET home page. */
@@ -14,6 +15,7 @@ router.post('/', function(req, res, next) {
     var dominio = req.body.urlabuscar;
     var protocolo = req.body.protocolo;
     var banner = "";
+    
 
 
 
@@ -48,10 +50,44 @@ router.post('/', function(req, res, next) {
         console.log('Received: ' + info);
         banner += info;
         console.log(banner);
-        banner = banner.substring(5);
-        banner = banner.split(')');
-        res.send(banner[0]);
-    })
+        switch(protocolo) {
+            case "21":
+                    banner = banner.substring(5);
+                    banner = banner.split(')');
+                    if(lista[banner]) {
+                        console.log('Es vulnerable');
+                    }
+                    res.send(banner[0]);
+                    break
+            case "22":
+                    banner = banner.substring(5);
+                    banner = banner.split(')');
+                    if(lista[banner]) {
+                        console.log('Es vulnerable');
+                    }
+                    res.send(banner[0]);
+                    break
+            case "23":
+                    banner = banner.substring(5);
+                    banner = banner.split(')');
+                    if(lista[banner]) {
+                        console.log('Es vulnerable');
+                    }
+                    res.send(banner[0]);
+                    break
+            case "25":
+                banner = banner.substring(5);
+                banner = banner.split(')');
+                if(lista[banner]) {
+                    console.log('Es vulnerable');
+                }
+                res.send(banner[0]);
+                break
+        }
+        
+        
+        
+    });
 
     /*
     console.log

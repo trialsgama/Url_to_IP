@@ -24,6 +24,8 @@ router.post('/', function(req, res, next) {
             var quickscan = new nmap.QuickScan(dominio);
             quickscan.on('complete', function(data){
                 console.log(data);
+                console.log('quick');
+                
             });
 
             quickscan.on('error', function(error){
@@ -37,6 +39,10 @@ router.post('/', function(req, res, next) {
             var nmapscan = new nmap.NmapScan(dominio);
             nmapscan.on('complete', function(data){
                 console.log(data);
+                data.openPorts.forEach((puerto) => {
+                    console.log(puerto);
+                    
+                });
             });
 
             nmapscan.on('error', function(error){
@@ -56,7 +62,8 @@ router.post('/', function(req, res, next) {
             ospscan.on('error', function(error){
                 console.log(error);
               });
-
+            
+            console
             resultado_scaneo = nmapscan.startScan();
             res.send(resultado_scaneo);
             break;

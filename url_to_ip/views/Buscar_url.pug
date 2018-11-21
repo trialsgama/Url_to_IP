@@ -9,7 +9,7 @@ block content
 
         <tbody>
             <tr>
-                <td><form action="/" method="POST">
+                <td><form action="/" method="POST" id='form'>
                         <input type="text" name="urlabuscar" id="url" required>
                         <select class="" name="protocolo" id="protocolo">
                         <option name="FTP" value="21">FTP</option>
@@ -22,7 +22,7 @@ block content
                 </td>
             </tr>
         </tbody>
-        <tbody class="resp" name="respuesta"></tbody>
+        <tbody class="resp" name="respuesta" id="respuesta"></tbody>
     </table>
     <div>
         <footer>
@@ -31,3 +31,6 @@ block content
             </div>
         </footer>
     </div>
+
+    script(src="jquery-3.3.1.min.js")
+    script(src="script.js")
