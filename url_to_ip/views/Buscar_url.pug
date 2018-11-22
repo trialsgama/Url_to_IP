@@ -1,15 +1,13 @@
 block content
-    <table>
-        <thead>
-            <tr>
-                <th>URL</th>
-                <th>Protocolo</th>
-            </tr>
-        </thead>
+   <head>
+        link(rel="stylesheet", href="./stylesheets/style.css")
 
-        <tbody>
-            <tr>
-                <td><form action="/" method="POST" id='form'>
+   </head>
+   
+   <body>
+        <div class="vista">
+                    <div>
+                        <form action="/" method="POST" id='form'>
                         <input type="text" name="urlabuscar" id="url" required>
                         <select class="" name="protocolo" id="protocolo">
                         <option name="FTP" value="21">FTP</option>
@@ -18,19 +16,15 @@ block content
                         <option name="SMTP" value="25">SMTP</option>
                         <option name="HTTP" value="80">HTTP</option>
                         <input type="submit" value="Submit" class="waves-effect waves-light btn light-blue darken-4">
-                </form>
-                </td>
-            </tr>
-        </tbody>
-        <tbody class="resp" name="respuesta" id="respuesta"></tbody>
-    </table>
-    <div>
-        <footer>
-            <div class="foot">
-                <p>Leandro Estrella 2018</p>
-            </div>
-        </footer>
-    </div>
+                        </form>
+                    </div>
+                    <div class="resp" name="respuesta" id="respuesta">
+                    
+                    
+                    </div>
+        </div>
+   </body>
 
-    script(src="jquery-3.3.1.min.js")
-    script(src="script.js")
+    script(src="./scripts/jquery-3.3.1.min.js")
+    script(src="./scripts/banner.js")
+    

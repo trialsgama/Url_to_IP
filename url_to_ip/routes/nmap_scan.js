@@ -16,15 +16,18 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
     var dominio = req.body.urlabuscar;
-    var scan = req.body.Tiposcan;
-    var resultado_scaneo = "";
+    var scan = req.body.tiposcan;
+  
     
     switch(scan) {
         case 'QuickScan':
             var quickscan = new nmap.QuickScan(dominio);
+            
+            quickscan.startScan();
+            
             quickscan.on('complete', function(data){
                 console.log(data);
-                console.log('quick');
+                res.send(data);
                 
             });
 
@@ -32,40 +35,39 @@ router.post('/', function(req, res, next) {
                 console.log(error);
               });
 
-            resultado_scaneo = quickscan.startScan();
-            res.send(resultado_scaneo);
+            
+             
             break;
         case 'NmapScan':
             var nmapscan = new nmap.NmapScan(dominio);
+            
+            nmapscan.startScan();
+
             nmapscan.on('complete', function(data){
                 console.log(data);
-                data.openPorts.forEach((puerto) => {
-                    console.log(puerto);
-                    
-                });
+                res.send(data);              
             });
 
             nmapscan.on('error', function(error){
                 console.log(error);
               });
 
-            nmapscan.startScan();
-            resultado_scaneo = nmapscan.scanResults;
-            res.send(resultado_scaneo);
             break;
         case 'OsAndPortScan':
             var ospscan = new nmap.OsAndPortScan(dominio);
+            
+            ospscan.startScan();
+
             ospscan.on('complete', function(data){
                 console.log(data);
+                res.send(data);
+                
             });
 
             ospscan.on('error', function(error){
                 console.log(error);
               });
-            
-            console
-            resultado_scaneo = nmapscan.startScan();
-            res.send(resultado_scaneo);
+
             break;
     }
     

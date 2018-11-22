@@ -1,8 +1,47 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("./wall.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 90%;
+  height: 90%;
 }
 
-a {
-  color: #00B7FF;
+div.vista {
+  text-align:  center;
+  padding: 1%;
+  border-radius: 2px;
+  border: 0px;
+  margin: 0%;
+  
+  
+}
+
+div.resp {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  padding: 1%;
+  border-radius: 2px;
+  border: 0px;
+  color: springgreen;
+  margin: 2%;
+  display: inline;
+  text-align: center;
+}
+
+input,
+select{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  padding: 1%;
+  border-radius: 2px;
+  border: 0px;
+  background-color: red;
+  color: white;
+  margin: 2%;
+  display: inline;
+}
+
+#url{
+  color: white;
 }

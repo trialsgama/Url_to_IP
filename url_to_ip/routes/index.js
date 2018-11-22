@@ -15,27 +15,8 @@ router.post('/', function(req, res, next) {
     var dominio = req.body.urlabuscar;
     var protocolo = req.body.protocolo;
     var banner = "";
-    
+    var vuln = " Es vulnerable";
 
-
-
-    /*
-   dns.lookup(dominio, family, (err, address) => {
-        if (err) {
-            console.log(err);
-        }
-        console.log('%j', address);
-        var client = new net.Socket();
-        client.connect(protocolo, address, function(err) {
-            if (err) {
-                console.log(err);
-            }
-             datos = client.setEncoding();
-        });
-        console.log(datos);
-
-    });
-    */
 
     var client = new net.Socket();
     client.connect(protocolo, dominio, function(err) {
@@ -55,7 +36,7 @@ router.post('/', function(req, res, next) {
                     banner = banner.substring(5);
                     banner = banner.split(')');
                     if(lista[banner]) {
-                        console.log('Es vulnerable');
+                        res.send(vuln);
                     }
                     res.send(banner[0]);
                     break
@@ -63,7 +44,7 @@ router.post('/', function(req, res, next) {
                     banner = banner.substring(5);
                     banner = banner.split(')');
                     if(lista[banner]) {
-                        console.log('Es vulnerable');
+                        res.send(vuln);
                     }
                     res.send(banner[0]);
                     break
@@ -71,7 +52,7 @@ router.post('/', function(req, res, next) {
                     banner = banner.substring(5);
                     banner = banner.split(')');
                     if(lista[banner]) {
-                        console.log('Es vulnerable');
+                        res.send(vuln);
                     }
                     res.send(banner[0]);
                     break
@@ -79,7 +60,7 @@ router.post('/', function(req, res, next) {
                 banner = banner.substring(5);
                 banner = banner.split(')');
                 if(lista[banner]) {
-                    console.log('Es vulnerable');
+                    res.send(vuln);
                 }
                 res.send(banner[0]);
                 break
@@ -88,27 +69,6 @@ router.post('/', function(req, res, next) {
         
         
     });
-
-    /*
-    console.log
-        /*
-          var ip = dns.lookup(dominio, family, (err, address) => {
-              if (err) {
-                  console.log(err);
-              }
-              return address;
-          });
-          */
-
-    /*
-    var client = new net.Socket();
-    var conexion_servidor = client.connect(protocolo, ip, function() {
-        return conexion_servidor;
-    });
-    console.log(conexion_servidor);
-
-    res.write(req.body.respuesta);
-    */
 });
 
 module.exports = router;
