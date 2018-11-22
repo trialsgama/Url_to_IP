@@ -4,11 +4,11 @@ $(document).ready(function() {
 
 		$.ajax({
             type: "POST",
-            url: "/",
+            url: "/nmap",
             async: false,
             data : {
                 urlabuscar : $('#url').val(),
-                tipoScan : $('#tiposcan').val()
+                tiposcan : $('#tiposcan').val()
             }, 
             success: function(data, textStatus, jqXHR) {
 				console.log(data);

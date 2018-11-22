@@ -27,7 +27,8 @@ router.post('/', function(req, res, next) {
             
             quickscan.on('complete', function(data){
                 console.log(data);
-                res.send(data);
+                
+                res.send(JSON.stringify(data));
                 
             });
 
@@ -45,7 +46,7 @@ router.post('/', function(req, res, next) {
 
             nmapscan.on('complete', function(data){
                 console.log(data);
-                res.send(data);              
+                res.send(JSON.stringify(data));             
             });
 
             nmapscan.on('error', function(error){
@@ -60,7 +61,7 @@ router.post('/', function(req, res, next) {
 
             ospscan.on('complete', function(data){
                 console.log(data);
-                res.send(data);
+                res.send(JSON.stringify(data));
                 
             });
 
